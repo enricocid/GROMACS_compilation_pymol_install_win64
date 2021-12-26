@@ -12,7 +12,7 @@ https://manual.gromacs.org/documentation/
 
 https://visualstudio.microsoft.com/it/vs/older-downloads/
 
-Select “Desktop development with C++”.
+Install and select “Desktop development with C++”.
 
 **3) Download Intel OneAPI**
 
@@ -48,11 +48,12 @@ $ cd build
 $ nmake
 ```
 
-**7) Copy the GROMACS library**
+**7) Linking to GROMACS binaries**
 
-- Create a new folder
-- Copy "bin, lib, share" folder from "build" into the newly created folder.
-- Create a .bat file with the following content:
+- Create a new folder, for example "Gromacs"
+- Copy the "bin, lib, share" folders from "build" into the newly created folder. 
+Place it under "C:/" or wherever You want.
+- Create a .bat file linking to this folder:
 
 ```
  @set "PATH=[path\to\Gromacs]\bin;%PATH%"
@@ -61,6 +62,7 @@ $ nmake
  ```
  Be sure to change [path\to\Gromacs] accordingly.
  
+ Enjoy!
  
  # PyMOL (Python 3.7.x)
  
