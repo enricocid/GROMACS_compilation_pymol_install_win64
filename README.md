@@ -2,6 +2,8 @@ Installation of gromacs and pymol on win64 instructions
 
 # GROMACS
 
+<img width="500" src="https://raw.githubusercontent.com/enricocid/GROMACS_compilation_pymol_install_win64/main/gromacs.png">
+
 **1) Download GROMACS source code**
 
 https://manual.gromacs.org/documentation/
@@ -62,6 +64,8 @@ $ nmake
  
  # PyMOL (Python 3.7.x)
  
+ <img width="500" src="https://raw.githubusercontent.com/enricocid/GROMACS_compilation_pymol_install_win64/main/pymol.png">
+
  **1) Download and install the required python libraries**
  
 - Download PyMOL launcher, PyMOL and Pmw from 
