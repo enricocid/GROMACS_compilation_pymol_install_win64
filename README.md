@@ -26,7 +26,7 @@ CD to gromacs **root** (p.s. not the "src") folder.
 
 **5) Generate build files**
 
-- Be sure to se cl.exe is the MSVC++ compiler:
+- Be sure to set cl.exe as the MSVC++ compiler:
 ```
 $ set CC=cl
 $ set CXX=cl
