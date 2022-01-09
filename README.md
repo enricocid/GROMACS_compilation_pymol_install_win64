@@ -58,7 +58,6 @@ Place it under "C:/" or wherever You want.
 ```
  @set "PATH=[path\to\Gromacs]\bin;%PATH%"
  @set GMXDATA=[path\to\Gromacs]\share\
- @set GMXLIB=[path\to\Gromacs]\share\top
  @cmd
  ```
 
